@@ -1,0 +1,19 @@
+/* Container kartu menggunakan CSS Grid */
+.container-ruangan {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Desain kartu ruangan */
+.card-ruangan {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 15px;
+    border-top: 5px solid #007bff;
+}
+
+.card-ruangan h3 { margin-top: 0; color: #333; }
+.card-ruangan p { font-size: 14px; color: #666; }
